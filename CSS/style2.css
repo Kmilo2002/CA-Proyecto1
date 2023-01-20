@@ -1,0 +1,249 @@
+/* nombre etiqueta {
+    propiedad: valor;
+    propiedad: valor;
+    propiedad: valor;
+} */
+
+/* .+class {
+    propiedad: valor;
+    propiedad: valor;
+    propiedad: valor;
+}  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Main4 {
+    height: 100vh;
+    background-color: rgb(216, 250, 238);
+    width: 100%;
+}
+p {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 10px 15px;
+    justify-content: space-between;
+    background-color: rgb(209, 252, 245);
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 10px;
+} 
+
+header .Title {
+    font-size: 18px;
+    color: orangered;
+    margin-left: 5px;
+    text-align: left;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.Main {
+    display: flexbox;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;  
+} 
+
+ul a {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    padding: 10px 15px;
+    margin: 2px;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+ul a:hover {
+    background-color: orangered;
+    border-radius: 50px;
+}
+
+.Visual  {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 90);
+    border: solid 1px black;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    height: 30vh;
+
+}
+
+.Box
+
+.Prestt {
+    display: flex;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding: 75px;
+}
+
+.Photo {
+    display: inline-flex;
+    flex-direction: column;
+    float: left;
+    width: 200px;
+    height: 175px;
+    border-radius: 5%;
+    border: solid 2px black;
+    margin-top: 60px;
+    margin-left: 50px;
+    
+}
+
+.animate__fadeIn {
+    font-size: 60px;
+    text-align: center;
+    color: brown;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.Dates{
+    justify-content:space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.Enero {
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.Abril {
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.date1 {
+    background-color: darkkhaki;
+    display: flex;
+    align-items: center;
+    border: solid 1px black;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(32,32,32,0.3);
+
+}
+
+.date2 {
+    background-color: darkkhaki;
+    display: flex;
+    align-items: center;
+    border: solid 1px black;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(32,32,32,0.3);
+}
+
+.date3 {
+    background-color: darkkhaki;
+    display: flex;
+    align-items: center;
+    border: solid 1px black;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(32,32,32,0.3);
+}
+
+.date4 {
+    background-color: darkkhaki;
+    display: flex;
+    align-items: center;
+    border: solid 1px black;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(32,32,32,0.3);
+}
+
+.Contenido {
+  font-display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Numero {
+  font-size: 55px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 5px;
+}
+
+.Dia {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 1.5px;
+  padding-right: 5px;
+  padding-left: 3px;
+}
+
+.Mes {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 1.5px;
+  padding-right: 5px;
+  padding-left: 3px;
+}
+
+.Type {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 1.5px;
+  padding-left: 20px;
+}
+
+.Course {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1.5px;
+  padding-left: 20px;
+}
+
+.Inscription {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(72, 75, 235);
+  border: solid 1.5px black;
+  padding: 10px;
+  margin-left: 50px;
+  box-shadow: 2px 2px 2px 2px rgba(32,32,32,0.3);
+}
+
+.Foot {
+    font-size: 18px;
+    background-color: rgb(199, 191, 191);
+    color: orangered;
+    padding-right: 10px;
+    text-align: right;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+

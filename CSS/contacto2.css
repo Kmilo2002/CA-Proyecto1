@@ -1,0 +1,147 @@
+/* nombre etiqueta {
+    propiedad: valor;
+    propiedad: valor;
+    propiedad: valor;
+} */
+
+/* .+class {
+    propiedad: valor;
+    propiedad: valor;
+    propiedad: valor;
+}  */
+
+p {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Main3 {
+    display: flexbox;
+    text-align: center;
+    background-color: rgb(216, 250, 238);
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    padding: 10px 15px;
+    justify-content: space-between;
+    background-color: rgb(209, 252, 245);
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 10px;
+} 
+
+header .Title {
+    font-size: 18px;
+    color: orangered;
+    margin-left: 5px;
+    text-align: left;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;  
+} 
+
+ul a {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    padding: 10px 15px;
+    margin: 2px;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+ul a:hover {
+    background-color: orangered;
+    border-radius: 50px;
+}
+
+.Visual  {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 90);
+    border: solid 1px black;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    /* width: 99.5vw; */
+    height: 30vh;
+
+}
+
+.Photo {
+    display: inline-flex;
+    flex-direction: column;
+    float: left;
+    width: 200px;
+    height: 175px;
+    border-radius: 5%;
+    border: solid 2px black;
+    margin-top: 60px;
+    margin-left: 25px;
+    margin-block-end: 25px;
+}
+
+.animate__shakeY{
+    font-size: 40px;
+    padding-bottom: 25px;
+    color: rgb(0, 0, 90);
+    text-align: center;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.Phone {
+    list-style: none;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.Mail a {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    padding: 12.5px;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.Mail a:hover {
+    background-color: rgb(47, 60, 240);
+    border-radius: 30%;
+}
+
+.Space {
+    width: 100%;
+    height: 555px;
+}
+
+.Foot {
+        font-size: 18px;
+        background-color: rgb(199, 191, 191);
+        color: orangered;
+        /* padding-right: 10px; */
+        text-align: right;
+        -webkit-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+.Foot2 {
+    padding-bottom: 415px;
+} 
