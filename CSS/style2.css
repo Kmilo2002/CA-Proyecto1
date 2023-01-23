@@ -16,11 +16,10 @@
     box-sizing: border-box;
 }
 
-.Main4 {
-    height: 100vh;
+body{
     background-color: rgb(216, 250, 238);
-    width: 100%;
 }
+
 p {
     font-size: large;
     font-weight: bold;
@@ -45,10 +44,6 @@ header .Title {
     -webkit-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
-}
-
-.Main {
-    display: flexbox;
 }
 
 ul li {
@@ -84,14 +79,19 @@ ul a:hover {
 
 }
 
-.Box
+.Box{
+    display: flex;
+    flex-direction:row;
+    width: 70%;
+    margin: auto;
+}
 
 .Prestt {
     display: flex;
-    font-size: 22px;
+    font-size: 20px;
     color: white;
     text-align: center;
-    padding: 75px;
+    padding: 30px;
 }
 
 .Photo {

@@ -22,6 +22,13 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(214, 248, 248);
+}
+
 header {
     display: flex;
     padding: 10px 15px;
@@ -74,7 +81,6 @@ ul a:hover {
 
 }
 
-
 .Prestt {
     display: flex;
     font-size: 20px;
@@ -101,14 +107,6 @@ ul a:hover {
     width: 70%;
     margin: auto;
 }
-
-.Main2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgb(214, 248, 248);
-}
-
 
 .animate__bounce {
     font-size: 30px;
