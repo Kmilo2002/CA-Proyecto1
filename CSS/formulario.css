@@ -10,35 +10,35 @@
     propiedad: valor;
 }  */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(214, 248, 248);
 }
 p {
     font-size: large;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-body {
-    background-color: rgb(205, 250, 235);
-}
-
 header {
     display: flex;
     padding: 10px 15px;
     justify-content: space-between;
     background-color: rgb(209, 252, 245);
-    width: 99vw;
+    width: 100%;
     overflow: auto;
     margin-bottom: 10px;
 } 
 
 header .Title {
     font-size: 18px;
-    font-weight: bold;
     color: orangered;
     margin-left: 5px;
     text-align: left;
@@ -47,12 +47,12 @@ header .Title {
     transition: all 500ms ease;
 }
 
-.Botones ul li {
+ul li {
     list-style: none;
     display: inline-block;  
 } 
 
-.Botones ul a {
+ul a {
     text-decoration: none;
     color: black;
     background-color: transparent;
@@ -71,118 +71,95 @@ ul a:hover {
 .Visual  {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: rgb(0, 0, 90);
     border: solid 1px black;
     margin-top: -10px;
-    margin-bottom: 25px;
     height: 30vh;
 }
 
-.Box{
+.Photo {
+    width: 200px;
+    height: 175px;
+    border-radius: 5%;
+    border: solid 2px black;
+    margin: auto;
+}
+
+.Banner {
     display: flex;
-    flex-direction:row;
-    justify-content: space-between;
+    justify-content: center;
     width: 60%;
     margin: auto;
 }
 
-.Prestt {
-    font-weight: bold;
-    display: flex;
-    font-size: 20px;
-    color: white;
+.H {
+    font-size: 50px;
+    color: darkblue;
     text-align: center;
-    padding: 30px;
+    padding: 25px;
 }
 
-.Page {
+.Chisme {
+    margin: auto;
+    width: 80%;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+.info div {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.Table {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: khaki;
-    width: 60%;
-    margin-top: 50px;
-    padding: 10px;
-    box-shadow: 4px 3px 5px 3px rgba(8, 8, 8, 0.5);
-}
-
-.Table th {
-    font-weight: bolder;
-    border: solid 2px rgb(233, 29, 29);
-    padding: 10px;
-}
-
-.Table td {
-    border: solid 1px black;
-    padding: 10px;
-}
-
-.Table tr:hover {
-    background-color: darkkhaki;
-    transform: scale(1.1);
-}
-
-.Pret {
-    font-size: 25px;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 15px;
-}
-
-.Lists {
-    display: flex;
-    width: 50%;
-    justify-content: space-around;
-    
-}
-
-.Box1 li {
-list-style-type:square;
-}
-
-.Box1, .Box2, .Box3 {
-    text-align: center;
-    margin: 25px;
-    margin-top: -5px;
-    background-color: cornflowerblue;
-    box-shadow: 4px 3px 5px 3px rgba(8, 8, 8, 0.5);
-}
- 
-
-.Box2 {
-    list-style: disc;
-    list-style-type: disc;
-}
-
-.Label {
-    font-size: 25px;
-}
-
-.Schedule {
-    font-size: 30px;
-}
-
-.Box3 {
-    font-size: large;
-    text-align: center;
-    width: 75%;
-    border: solid 3px black;
-    margin-top: 20px;
-}
-
-.Box3 dt {
-    font-weight: bold;
     padding: 5px;
-    border-bottom: solid 1px black;
-    border-top: solid 1px black;
+ }
+
+.form-control, .Selection {
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+    height: 25px;
+    background-color: rgb(130, 247, 235);
+}
+
+.MainBox {
+    display: flex;
+}
+
+.Box, .Box1 {
+    display: flex;
+    margin: auto;
+    padding: 5px;
+    justify-content: space-around;
+    width: 15%;
+}
+.Box div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Box div input{
+    margin-bottom: 9px;
+    margin-left: 5px;
+}
+
+.Box1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Box1 div input {
+    margin-bottom: 9px;
+    margin-right: 10px;
+}
+.Reset, .Submit {
+    font-size: 15px;
+    font-weight: bold;
+    width: 75px;
+    height: 25px;
+    background-color: rgb(130, 247, 235);
 }
 
 .Foot {
@@ -190,8 +167,9 @@ list-style-type:square;
     background-color: rgb(199, 191, 191);
     color: orangered;
     padding-right: 10px;
+    margin-top: 165px;
     text-align: right;
     -webkit-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
-}
+  }
