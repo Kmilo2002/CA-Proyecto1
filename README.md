@@ -15,3 +15,5 @@ No necesita instalación alguna, el usuario solo necesita una terminal con acces
 La interfaz presentada al usuario es bastante básica e intuitiva.
 ***
 # FAQ
+Acá tenemos algunas de las preguntas más frecuentes con respecto al aplicación:
+<b>1- ¿A qué está dedicada esta aplicación we?</b>
