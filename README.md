@@ -9,4 +9,6 @@ En la segunda etapa del proyecto (Sprint 2), a partir de los conocimientos asqui
 desarrollar su propio estilo (CSS), utilizando como base la misma estructura de la aplicación (HTML). Además se agregaron algunas funcionalidades, nuevas, aprendidas en el trancurso del Bootcamp. <br />
 En la tercera y última etapa (Sprint 3) del proyecto, se siguió desarrollando la aplicación web que se comenzó a desarrollar en la etapa anterior, agregándole nuevas funcionalidades y comportamientos, a partir de los conociemientos adquiridos, que permiten que la aplicación sea más agradable, visualmente, para el usuario.
 ***
-# Tecnologías 
+# Tecnologías utilizadas
+La aplicación se desarrolló integramente en Visual Studio Code (VS), dándole soporte con Git y GitHub, además se utilizó Netlify para que se pueda acceder a la misma desde otras terminales, solo utlizando alguna red, ya sea alámbrica o inalámbrica, la que esté a disposición del usuario. <br />
+No necesita instalación alguna, el usuario solo necesita una terminal con acceso a Internet y un navegador
