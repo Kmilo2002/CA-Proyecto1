@@ -200,25 +200,31 @@ ul a:hover {
     display: flex;
     flex-direction: row;   
 }
+
 .Box4 {
     text-align: center;
     margin: 25px;
     margin-bottom: 50px;
 }
-.Box4:hover{
-    transform: scale(1.2);
-}
 
 .Inscpt {
+    font-size: 22px;
     justify-content: center;
+    text-shadow: 1px 1px 1px rgba(252, 248, 5, 1);;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     text-decoration: none;
     color: black;
-    background-color: rgb(72, 75, 235);
-    border: solid 1.5px black;
     padding: 10px;
-    box-shadow: 3px 3px 3px 3px rgba(32, 32, 32, 0.3);
-  }
+}
+
+.Box4 button {
+    width: 200px;
+    height: 75px;
+    border: solid 1.5px black;
+    background-color: rgb(72, 75, 235);
+    box-shadow: 3px 3px 3px 3px rgba(32, 32, 32, 0.8);
+}
+
 .Foot {
     font-size: 18px;
     background-color: rgb(199, 191, 191);
