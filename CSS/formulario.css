@@ -11,165 +11,187 @@
 }  */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgb(214, 248, 248);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(214, 248, 248);
 }
 p {
-    font-size: large;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 header {
-    display: flex;
-    padding: 10px 15px;
-    justify-content: space-between;
-    background-color: rgb(209, 252, 245);
-    width: 100%;
-    overflow: auto;
-    margin-bottom: 10px;
-} 
+  display: flex;
+  padding: 10px 15px;
+  justify-content: space-between;
+  background-color: rgb(209, 252, 245);
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 10px;
+}
 
 header .Title {
-    font-size: 18px;
-    color: orangered;
-    margin-left: 5px;
-    text-align: left;
-    -webkit-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
+  font-size: 18px;
+  color: orangered;
+  margin-left: 5px;
+  text-align: left;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
 ul li {
-    list-style: none;
-    display: inline-block;  
-} 
+  list-style: none;
+  display: inline-block;
+}
 
 ul a {
-    text-decoration: none;
-    color: black;
-    background-color: transparent;
-    padding: 10px 15px;
-    margin: 2px;
-    -webkit-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  padding: 10px 15px;
+  margin: 2px;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
 ul a:hover {
-    background-color: orangered;
-    border-radius: 50px;
+  background-color: orangered;
+  border-radius: 50px;
 }
 
-.Visual  {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    background-color: rgb(0, 0, 90);
-    border: solid 1px black;
-    margin-top: -10px;
-    height: 30vh;
+.Visual {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  background-color: rgb(0, 0, 90);
+  border: solid 1px black;
+  margin-top: -10px;
+  height: 30vh;
 }
 
 .Photo {
-    width: 200px;
-    height: 175px;
-    border-radius: 5%;
-    border: solid 2px black;
-    margin: auto;
+  width: 200px;
+  height: 175px;
+  border-radius: 5%;
+  border: solid 2px black;
+  margin: auto;
 }
 
 .Banner {
-    display: flex;
-    justify-content: center;
-    width: 60%;
-    margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
 }
 
 .H {
-    font-size: 50px;
-    color: darkblue;
-    text-align: center;
-    padding: 25px;
+  font-size: 50px;
+  color: darkblue;
+  text-align: center;
+  padding: 25px;
 }
 
 .Chisme {
-    margin: auto;
-    width: 80%;
+  margin: auto;
+  width: 80%;
 }
-.info {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: auto;
-}
-.info div {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
- }
 
-.form-control, .Selection {
-    font-size: 15px;
-    font-weight: bold;
-    width: 150px;
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+}
+
+.info div {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.Lbl label {
+    margin: 2px;
     height: 25px;
-    background-color: rgb(130, 247, 235);
+}
+
+.Inn input{
+    margin: 2px;
+    width: 200px;
+    height: 25px;
+}
+
+.form-control,
+.Selection {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 2px;
+  width: 185px;
+  height: 25px;
+  background-color: rgb(130, 247, 235);
 }
 
 .MainBox {
-    display: flex;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
-.Box, .Box1 {
-    display: flex;
-    margin: auto;
-    padding: 5px;
-    justify-content: space-around;
-    width: 15%;
+.Box,
+.Box1 {
+  display: flex;
+  margin: auto;
+  padding: 5px;
+  width: 50%;
+  justify-content: center;
 }
-.Box div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+
+.Box div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
-.Box div input{
-    margin-bottom: 9px;
-    margin-left: 5px;
+.Box div input {
+  margin-bottom: 9px;
+  margin: 5px;
 }
 
 .Box1 div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
+
 .Box1 div input {
-    margin-bottom: 9px;
-    margin-right: 10px;
+  margin-bottom: 9px;
+  margin: 5px;
 }
-.Reset, .Submit {
-    font-size: 15px;
-    font-weight: bold;
-    width: 75px;
-    height: 25px;
-    background-color: rgb(130, 247, 235);
+
+.Reset,
+.Submit {
+  font-size: 15px;
+  font-weight: bold;
+  width: 75px;
+  height: 25px;
+  background-color: rgb(130, 247, 235);
 }
 
 .Foot {
-    font-size: 18px;
-    background-color: rgb(199, 191, 191);
-    color: orangered;
-    padding-right: 10px;
-    margin-top: 165px;
-    text-align: right;
-    -webkit-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
+  font-size: 18px;
+  background-color: rgb(199, 191, 191);
+  color: orangered;
+  padding-right: 10px;
+  margin-top: 165px;
+  text-align: right;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
