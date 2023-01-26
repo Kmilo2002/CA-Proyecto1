@@ -11,7 +11,7 @@ En la tercera y última etapa del proyecto (Sprint 3), se siguió desarrollando 
 ***
 # Tecnologías utilizadas
 La aplicación se desarrolló integramente en Visual Studio Code (VS), dándole soporte con Git y GitHub, además se utilizó Netlify para que se pueda acceder a la misma desde otras terminales, solo utlizando alguna red, ya sea alámbrica o inalámbrica, la que esté a disposición del usuario.
-![2023-01-26](https://user-images.githubusercontent.com/122996393/214786196-f57ebecc-478d-498f-a51f-1fc6dff35f61.png)
+
 No necesita instalación alguna, el usuario solo necesita una terminal con acceso a Internet y un navegador, en el caso del navegador no es necesario especificar ni la versión ni la marca puesto que el HTML y el CSS utilizado son bastante básicos y la gran mayoría de estos los leerán. <br />
 La interfaz presentada al usuario es bastante básica e intuitiva.
 ***
@@ -21,3 +21,6 @@ Acá tenemos algunas de las preguntas más frecuentes con respecto al aplicació
 Es una aplicación web que presenta, a groso modo, la CampSite Academy, incluyendo las próximas convocatorias del curso, los mentores de nuestros cursos, una relación de alumnos del Bootcamp actual y una pequeña muestra de los conocimientos impartidos hasta ahora, así como, el horario del día. <br />
 <b>2-¿Es impresindible tener algún conocimiento previo de programación?
 Para nada, a los estudiantes se les hace una entrevista inicial para determinar si poseen algún conocimiento previo pero si no lo tiene, en el BootCamp se hace la introducción al todos los lenguajes de programación que serán necesario para lograr los objetivos propuestos por los mentores.
+
+
+[def]: https://user-images.githubusercontent.com/122996393/214786196-f57ebecc-478d-498f-a51f-1fc6dff35f61.png
