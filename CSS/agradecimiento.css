@@ -117,6 +117,7 @@ ul a:hover {
 
 .Foot {
     font-size: 18px;
+    height: 50px;
     background-color: rgb(199, 191, 191);
     color: orangered;
     padding-right: 10px;

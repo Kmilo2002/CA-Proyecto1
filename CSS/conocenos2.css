@@ -40,7 +40,7 @@ header {
 } 
 
 header .Title {
-    font-size: 18px;
+    font-size: 25px;
     color: orangered;
     margin-left: 5px;
     text-align: left;
@@ -55,6 +55,7 @@ ul li {
 } 
 
 ul a {
+    font-size: 20px;
     text-decoration: none;
     color: black;
     background-color: transparent;
@@ -77,39 +78,38 @@ ul a:hover {
     background-color: rgb(0, 0, 90);
     border: solid 1px black;
     margin-top: -10px;
-    height: 30vh;
+    height: 40vh;
 
+}
+
+.Box {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  margin: auto;
+  align-items: center;
 }
 
 .Prestt {
     display: flex;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     text-align: center;
-    padding: 35px;
+    padding: 30px;
 }
 
 .Photo {
     display: inline-flex;
     flex-direction: column;
-    float: left;
-    width: 200px;
-    height: 175px;
+    width: 300px;
+    height: 250px;
     border-radius: 5%;
     border: solid 2px black;
     margin: 60px;
-    margin-block-end: 25px;
-}
-
-.Banner {
-    display: flex;
-    flex-direction:row;
-    width: 60%;
-    margin: auto;
 }
 
 .animate__bounce {
-    font-size: 30px;
+    font-size: 50px;
     padding: 15px;
     color: red;
     text-align: center;
@@ -226,7 +226,8 @@ ul a:hover {
 }
 
 .Foot {
-    font-size: 18px;
+    height: 50px;
+    font-size: 20px;
     background-color: rgb(199, 191, 191);
     color: orangered;
     padding-right: 10px;

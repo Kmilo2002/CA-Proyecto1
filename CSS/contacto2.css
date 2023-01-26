@@ -97,23 +97,38 @@ ul a:hover {
 }
 
 .animate__shakeY{
-    font-size: 40px;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding-bottom: 25px;
     color: rgb(0, 0, 90);
     text-align: center;
     animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 5;
 }
 
 .Phone {
+    font-size: 25px;
     list-style: none;
     text-align: center;
     padding-bottom: 25px;
 }
 
+.contact {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.fa-envelope {
+    font-size: 25px;
+    list-style: none;
+    text-align: center;
+}
+
 .Mail a {
     text-decoration: none;
     color: black;
+    font-size: 25px;
     background-color: transparent;
     padding: 12.5px;
     -webkit-transition: all 500ms ease;
@@ -126,19 +141,15 @@ ul a:hover {
     border-radius: 30%;
 }
 
-.Space {
-    width: 100%;
-    height: 555px;
-}
-
 .Foot {
-        font-size: 18px;
-        background-color: rgb(199, 191, 191);
-        color: orangered;
-        padding-right: 10px;
-        margin-top: 540px;
-        text-align: right;
-        -webkit-transition: all 500ms ease;
-        -o-transition: all 500ms ease;
-        transition: all 500ms ease;
-    }
+    font-size: 18px;
+    height: 50px;
+    background-color: rgb(199, 191, 191);
+    color: orangered;
+    padding-right: 10px;
+    margin-top: 540px;
+    text-align: right;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}

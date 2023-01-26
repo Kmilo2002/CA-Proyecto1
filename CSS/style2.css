@@ -37,7 +37,7 @@ header {
 }
 
 header .Title {
-  font-size: 18px;
+  font-size: 25px;
   color: orangered;
   margin-left: 5px;
   text-align: left;
@@ -52,6 +52,7 @@ ul li {
 }
 
 ul a {
+  font-size: 20px;
   text-decoration: none;
   color: black;
   background-color: transparent;
@@ -75,21 +76,22 @@ ul a:hover {
   border: solid 1px black;
   margin-top: -10px;
   margin-bottom: 25px;
-  height: 30vh;
+  height: 40vh;
 }
 
 .Box {
   display: flex;
   flex-direction: row;
-  width: 60%;
+  width: 80%;
   margin: auto;
 }
 
 .Prestt {
   display: flex;
-  font-size: 20px;
+  font-size: 30px;
   color: white;
   text-align: center;
+  margin: auto;
   padding: 30px;
 }
 
@@ -97,11 +99,11 @@ ul a:hover {
   display: inline-flex;
   flex-direction: column;
   float: left;
-  width: 200px;
-  height: 175px;
+  width: 300px;
+  height: 250px;
   border-radius: 5%;
   border: solid 2px black;
-  margin-top: 60px;
+  margin: 25px;
   margin-left: 50px;
 }
 
@@ -112,7 +114,7 @@ ul a:hover {
   margin-top: 75px;
   margin-bottom: 50px;
   animation-duration: 3s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 6;
 }
 
 .Dates {
@@ -235,6 +237,7 @@ ul a:hover {
 
 .Foot {
   font-size: 18px;
+  height: 50px;
   background-color: rgb(199, 191, 191);
   color: orangered;
   padding-right: 10px;
