@@ -53,6 +53,7 @@ ul li {
 
 ul a {
   font-size: 20px;
+  font-weight: bold;
   text-decoration: none;
   color: black;
   background-color: transparent;
@@ -66,6 +67,10 @@ ul a {
 ul a:hover {
   background-color: orangered;
   border-radius: 50px;
+}
+
+.Botones {
+  margin-top: 3px;
 }
 
 .Visual {
@@ -89,6 +94,7 @@ ul a:hover {
 .Prestt {
   display: flex;
   font-size: 30px;
+  align-self: center;
   color: white;
   text-align: center;
   margin: auto;

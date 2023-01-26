@@ -41,6 +41,7 @@ header {
 
 header .Title {
     font-size: 25px;
+    font-weight: bold;
     color: orangered;
     margin-left: 5px;
     text-align: left;
@@ -56,6 +57,7 @@ ul li {
 
 ul a {
     font-size: 20px;
+    font-weight: bold;
     text-decoration: none;
     color: black;
     background-color: transparent;
@@ -71,6 +73,9 @@ ul a:hover {
     border-radius: 50px;
 }
 
+.Botones {
+    margin-top: 3px;
+}
 .Visual  {
     display: flex;
     flex-direction: row-reverse;
@@ -109,12 +114,12 @@ ul a:hover {
 }
 
 .animate__bounce {
-    font-size: 50px;
+    font-size: 75px;
     padding: 15px;
     color: red;
     text-align: center;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 6;
     padding-top: 50px;
 }
 
@@ -153,7 +158,7 @@ ul a:hover {
 }
 
 .Mentora1 {
-    width: 200px;
+    width: 300px;
     height: 200px;
     border-radius: 25%;
     border: solid 2px black;
@@ -227,12 +232,16 @@ ul a:hover {
 
 .Foot {
     height: 50px;
-    font-size: 20px;
     background-color: rgb(199, 191, 191);
+}
+
+.K {
+    font-size: 25px;
+    text-align: end;
+    justify-content: last baseline;
     color: orangered;
     padding-right: 10px;
-    text-align: right;
-    margin-top: 20px;
+    padding-top: 20px;
     -webkit-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;

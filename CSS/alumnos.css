@@ -37,7 +37,7 @@ header {
 } 
 
 header .Title {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
     color: orangered;
     margin-left: 5px;
@@ -47,12 +47,18 @@ header .Title {
     transition: all 500ms ease;
 }
 
+.Botones {
+    margin-top: 3px;
+}
+
 .Botones ul li {
     list-style: none;
     display: inline-block;  
 } 
 
 .Botones ul a {
+    font-size: 20px;
+    font-weight: bold;
     text-decoration: none;
     color: black;
     background-color: transparent;
@@ -76,24 +82,35 @@ ul a:hover {
     border: solid 1px black;
     margin-top: -10px;
     margin-bottom: 25px;
-    height: 30vh;
+    height: 40vh;
 }
 
 .Box{
     display: flex;
     flex-direction:row;
     justify-content: space-between;
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
 
 .Prestt {
+    font-size: 30px;
     font-weight: bold;
     display: flex;
-    font-size: 20px;
     color: white;
     text-align: center;
+    align-items: center;
     padding: 30px;
+}
+
+.Photo {
+    display: inline-flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    border-radius: 5%;
+    border: solid 2px black;
+    margin: 60px;
 }
 
 .Page {
@@ -210,11 +227,14 @@ list-style-type:square;
 }
 
 .Foot {
-    font-size: 18px;
     height: 50px;
     background-color: rgb(199, 191, 191);
+}
+.K {
+    font-size: 25px;
     color: orangered;
     padding-right: 10px;
+    padding-top: 20px;
     text-align: right;
     -webkit-transition: all 500ms ease;
     -o-transition: all 500ms ease;

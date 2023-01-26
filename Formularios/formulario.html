@@ -23,7 +23,7 @@
     </header>
     <div class="Visual Visual2">
       <div class="Banner">
-        <img src="../JPG/programador.jpeg" alt="Programador" />
+        <img src="../JPG/programador.jpeg" alt="Programador" class="Photo"/>
       </div>
     </div>
     <p class="H">Formulario de Contacto</p>
@@ -37,6 +37,7 @@
             <label for="email">Correo electrónico:*</label>
             <label for="age">Edad:*</label>
             <label for="address">Dirección:*</label>
+            <label for="city">Provincia de residencia:*</label>
           </div>
           <div class="Inn">
             <input
@@ -68,10 +69,8 @@
               required
               placeholder="Introduzca dirección"
             />
-          </div>
-        </div>
           <div>
-            <label for="city">Provincia de residencia:*</label>
+            <!-- <label for="city">Provincia de residencia:*</label> -->
             <select required name="provincia" class="form-control">
               <option value="">Elige Provincia</option>
               <option value="Álava/Araba">Álava/Araba</option>
@@ -128,7 +127,8 @@
               <option value="Zaragoza">Zaragoza</option>
             </select>
           </div>
-        
+        </div>
+      </div>
       </fieldset>
       <fieldset>
         <legend>Conocimientos Previos</legend>
@@ -197,7 +197,7 @@
       <input type="reset" value="Borrar" class="Reset" />
     </form>
     <footer class="Foot">
-      <p>Copyright by &copy; Kmilo</p>
+      <p class="K">Copyright by &copy; Kmilo</p>
     </footer>
   </body>
 </html>
