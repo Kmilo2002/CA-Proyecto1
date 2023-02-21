@@ -11,7 +11,9 @@ En la tercera y última etapa del proyecto (Sprint 3), se siguió desarrollando 
 ***
 # Tecnologías utilizadas
 La aplicación se desarrolló integramente en Visual Studio Code (VS), dándole soporte con Git y GitHub, además se utilizó Netlify para que se pueda acceder a la misma desde otras terminales, solo utlizando alguna red, ya sea alámbrica o inalámbrica, la que esté a disposición del usuario.
+
 [def]: https://user-images.githubusercontent.com/122996393/214786196-f57ebecc-478d-498f-a51f-1fc6dff35f61.png
+
 No necesita instalación alguna, el usuario solo necesita una terminal con acceso a Internet y un navegador, en el caso del navegador no es necesario especificar ni la versión ni la marca puesto que el HTML y el CSS utilizado son bastante básicos y la gran mayoría de estos los leerán. <br />
 La interfaz presentada al usuario es bastante básica e intuitiva.
 ***
