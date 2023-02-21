@@ -23,4 +23,5 @@ Es una aplicación web que presenta, a groso modo, la CampSite Academy, incluyen
 Para nada, a los estudiantes se les hace una entrevista inicial para determinar si poseen algún conocimiento previo pero si no lo tiene, en el BootCamp se hace la introducción al todos los lenguajes de programación que serán necesario para lograr los objetivos propuestos por los mentores.
 
 
+
 [def]: https://user-images.githubusercontent.com/122996393/214786196-f57ebecc-478d-498f-a51f-1fc6dff35f61.png
