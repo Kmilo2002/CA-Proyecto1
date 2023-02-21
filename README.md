@@ -19,7 +19,7 @@ La interfaz presentada al usuario es bastante básica e intuitiva.
 Acá tenemos algunas de las preguntas más frecuentes con respecto al aplicación:<br />
 <b>1- ¿A qué está dedicada esta aplicación web?</b> <br />
 Es una aplicación web que presenta, a groso modo, la CampSite Academy, incluyendo las próximas convocatorias del curso, los mentores de nuestros cursos, una relación de alumnos del Bootcamp actual y una pequeña muestra de los conocimientos impartidos hasta ahora, así como, el horario del día. <br />
-<b>2-¿Es impresindible tener algún conocimiento previo de programación?
+<b>2-¿Es impresindible tener algún conocimiento previo de programación?</b> <br />
 Para nada, a los estudiantes se les hace una entrevista inicial para determinar si poseen algún conocimiento previo pero si no lo tiene, en el BootCamp se hace la introducción al todos los lenguajes de programación que serán necesario para lograr los objetivos propuestos por los mentores.
 
 
